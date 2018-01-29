@@ -9,7 +9,7 @@ def bot_login():
 		client_secret = config.client_secret,
 		user_agent = 'User Agent')
 	if r:
-		print('Logic success')
+		#print('Logic success')
 		return r
 	else:
 		print('Login failed')
@@ -22,8 +22,8 @@ def bot_search(r, subreddit):
 			with open('comments_replied_to.txt', 'a') as f:
 				f.write(comment.id)
 				f.write('\n')
-				print("Replied to: " + comment.id)
-	time.sleep(30)
+				#print("Replied to: " + comment.id)
+	# time.sleep(30)
 
 def read_in_comments():
 	with open('comments_replied_to.txt' ,'r') as f:
@@ -35,8 +35,7 @@ r = bot_login()
 comments_replied_to = read_in_comments();
 
 def main():
-	print('Bot Searching ...')
-	while True:
-		bot_search(r, 'test')
+	#print('Bot Searching ...')
+	bot_search(r, 'test')
 
 main();
