@@ -34,8 +34,6 @@ def read_in_comments():
 r = bot_login()
 comments_replied_to = read_in_comments();
 
-def main():
+if __name__ == '__main__':
 	#print('Bot Searching ...')
 	bot_search(r, 'test')
-
-main();
