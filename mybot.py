@@ -1,6 +1,4 @@
-import praw
-import config
-import time
+import praw, config, time
 
 def bot_login():
 	r = praw.Reddit(username = config.username,
