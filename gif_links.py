@@ -1,0 +1,2 @@
+# List of possible links for the reddit response to contain
+gif_links = ['https://giphy.com/gifs/IUZtGhVO8hZ6w', 'https://giphy.com/gifs/nice-borat-very-l0HTYUmU67pLWv1a8','https://giphy.com/gifs/statefarm-ad-9GIuYF4OoqwGTE7oUd']
