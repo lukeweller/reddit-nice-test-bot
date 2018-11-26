@@ -16,7 +16,7 @@ def bot_login():
 		print(f'Login failed error: {e}')
 
 def random_gif():
-	return random.choice(gif_links.gif_links)
+	return random.choice(gif_links.gifs)
 
 def bot_search(r, subreddit, comments_replied_to, verbose=False):
 	for comment in r.subreddit(subreddit).comments(limit=1000):
